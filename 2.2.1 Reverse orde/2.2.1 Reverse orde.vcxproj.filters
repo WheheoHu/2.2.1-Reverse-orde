@@ -21,7 +21,7 @@
     <ClInclude Include="lineartable.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RrverseOrder.h">
+    <ClInclude Include="reverseorder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
