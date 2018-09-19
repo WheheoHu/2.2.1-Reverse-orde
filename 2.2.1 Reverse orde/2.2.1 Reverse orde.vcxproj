@@ -151,7 +151,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="lineartable.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="RrverseOrder.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2.2.1 Reverse orde.cpp" />
