@@ -20,7 +20,7 @@ inline ReverseOrder<T>::ReverseOrder(linear_Table<T> LinTa)
 template<class T>
 inline ReverseOrder<T>::~ReverseOrder()
 {
-
+	LinTa.ClearList();
 }
 
 template<class T>
