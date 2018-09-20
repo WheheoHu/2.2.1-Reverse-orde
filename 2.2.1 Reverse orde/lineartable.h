@@ -6,7 +6,7 @@ template<typename T>
 class linear_Table {
 public:
 	linear_Table();
-	~linear_Table();
+	//~linear_Table();
 	void InitList();
 	bool ListEmpty();
 	void ClearList();
@@ -27,11 +27,11 @@ inline linear_Table<T>::linear_Table()
 	//std::cout << "initialize compelete!" << std::endl;
 }
 
-template<typename T>
-inline linear_Table<T>::~linear_Table()
-{
-	delete[] data;
-}
+//template<typename T>
+//inline linear_Table<T>::~linear_Table()
+//{
+//	delete[] data;
+//}
 
 template<typename T>
 void linear_Table<T>::InitList() {
