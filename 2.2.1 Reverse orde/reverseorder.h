@@ -33,6 +33,7 @@ inline void ReverseOrder<T>::reverse(linear_Table<T> LinTa)
 	}
 	for (int i = 0; i < LinTa.ListLenght()/2; i++)
 	{
+	//std:: cout << LinTa.GetElem(i + 1) <<std:: endl;
 		swapele(LinTa, left_ele, right_ele);
 		left_ele++;
 		right_ele--;
@@ -43,10 +44,8 @@ inline void ReverseOrder<T>::reverse(linear_Table<T> LinTa)
 template<class T>
 inline void ReverseOrder<T>::swapele(linear_Table<T> LinTa, int location_1, int location_2)
 {
-	T ele_1;
-	T ele_2;
-	ele_1 = LinTa.GetElem(location_1);
-	ele_2 = LinTa.GetElem(location_2);
+	T ele_1 = LinTa.GetElem(location_1);
+	T ele_2 = LinTa.GetElem(location_2);
 	LinTa.ListDelete(location_1, ele_1);
 	LinTa.ListInsert(location_1, ele_2);
 	LinTa.ListDelete(location_2, ele_2);
